@@ -412,7 +412,10 @@
                 case XZCustomViewTypeActionSheetView:
                 {
                     
-                    [XZCustomViewManager showCustomActionSheetWithTitle:@"哈喽你好" cancelButtonTitle:@"不好" otherButtonTitles:@[@"你好", @"我好", @"大家好"] handle:^(XZCustomActionSheetView *actionSheetView, NSInteger index) {
+                    [XZCustomViewManager showCustomActionSheetWithTitle:@"哈喽你好"
+                                                      cancelButtonTitle:@"不好"
+                                                      otherButtonTitles:@[@"你好", @"我好", @"大家好"]
+                                                                 handle:^(XZCustomActionSheetView *actionSheetView, NSInteger index) {
                         
                         switch (index) {
                             case -1:
