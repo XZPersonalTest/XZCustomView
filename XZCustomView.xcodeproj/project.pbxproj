@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE13EDCD1FAC640800D12416 /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = DE13EDCC1FAC640800D12416 /* demo.mov */; };
 		DE14D60B1FA80EA7005DC03F /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14D60A1FA80EA7005DC03F /* UIDevice+Extension.m */; };
 		DE14D60E1FA80FE0005DC03F /* XZConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14D60C1FA80FE0005DC03F /* XZConst.m */; };
 		DE14D6161FA8180D005DC03F /* FHHFPSIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14D6131FA8180D005DC03F /* FHHFPSIndicator.m */; };
@@ -54,7 +53,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE13EDCC1FAC640800D12416 /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
 		DE14D6091FA80EA7005DC03F /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
 		DE14D60A1FA80EA7005DC03F /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
 		DE14D60C1FA80FE0005DC03F /* XZConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZConst.m; sourceTree = "<group>"; };
@@ -225,7 +223,6 @@
 		DE8AD6951FA3127B006F2FEE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				DE13EDCC1FAC640800D12416 /* demo.mov */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -465,7 +462,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE14D62B1FA8372F005DC03F /* XZTestVC.xib in Resources */,
-				DE13EDCD1FAC640800D12416 /* demo.mov in Resources */,
 				DEF348EB1FA09719003AD5FA /* Assets.xcassets in Resources */,
 				DE14D6291FA8372F005DC03F /* XZTestCell.xib in Resources */,
 			);
