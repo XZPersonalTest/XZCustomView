@@ -7,8 +7,7 @@
 ## 使用方法：
     1.将XZCustomeView整个文件夹导入您的项目中
     2.在AppDelegate文件中导入 #import "XZCustomWindowManager.h" 头文件
-    3.在程序启动方法里创建CustomView管理类：
-    
+    3.在程序启动方法里创建CustomView管理类：[XZCustomWindowManager shareManager].defuatSuperView = self.window;
 ```
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     {
@@ -30,7 +29,50 @@
 
     }
 ```
-
+    4.在需要使用弹窗的界面导入头文件：#import "XZHeader.h"
+    5.等待提示框的使用
+        * 自适应文字高度+菊花等待窗类型
 ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting01.gif)
+
+```
+    // 显示等待窗
+    [XZCustomWaitingView showAdaptiveWaitingMaskView:@"努力加载中敬请期待..." iconName:@"XZ_mei_tuan" iconNumber:4];
+    
+    // 隐藏等待窗
+    [XZCustomWaitingView hideWaitingMaskView];
+```
+        * 固定文字高度+菊花等待窗类型
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting02.gif)
+```
+    // 显示等待窗
+    [XZCustomWaitingView showWaitingMaskView:@"努力加载中..." iconName:@"XZ_mei_tuan" iconNumber:4];
+
+    // 隐藏等待窗
+    [XZCustomWaitingView hideWaitingMaskView];
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
