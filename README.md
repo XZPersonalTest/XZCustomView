@@ -4,11 +4,14 @@
 文件结构：class文件夹下包括XZCustomeView文件夹及XZCustomeViewDemo文件夹，XZCustomeViewDemo文件夹为demo演示文件，XZCustomeView文件夹内为功能文件
 
 使用方法：
-1.将XZCustomeView整个文件夹导入您的项目中
-2.在AppDelegate文件中导入 #import "XZCustomWindowManager.h" 头文件
-3.在程序启动方法里创建CustomView管理类：[XZCustomWindowManager shareManager].defuatSuperView = self.window;
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+    1.将XZCustomeView整个文件夹导入您的项目中
+    2.在AppDelegate文件中导入 #import "XZCustomWindowManager.h" 头文件
+    3.在程序启动方法里创建CustomView管理类：
+    
+    -  [XZCustomWindowManager shareManager].defuatSuperView = self.window;
+    
+    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+    {
     // Override point for customization after application launch.
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -25,7 +28,7 @@
 
     return YES;
 
-}
+    }
 
 
     
