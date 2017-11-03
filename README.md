@@ -8,31 +8,27 @@
     2.在AppDelegate文件中导入 #import "XZCustomWindowManager.h" 头文件
     3.在程序启动方法里创建CustomView管理类：
     
-    -  [XZCustomWindowManager shareManager].defuatSuperView = self.window;
-    
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     {
-    // Override point for customization after application launch.
+        // Override point for customization after application launch.
 
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
 
-    XZTestVC *testVC = [[XZTestVC alloc] init];
+        XZTestVC *testVC = [[XZTestVC alloc] init];
 
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:testVC];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:testVC];
 
-    self.window.rootViewController = nav;
+        self.window.rootViewController = nav;
 
-    [XZCustomWindowManager shareManager].defuatSuperView = self.window;
+        [XZCustomWindowManager shareManager].defuatSuperView = self.window;
 
-    [self.window makeKeyAndVisible];
+        [self.window makeKeyAndVisible];
 
-    return YES;
+        return YES;
 
     }
-
-
     
 
-
 ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting01.gif)
+
 
