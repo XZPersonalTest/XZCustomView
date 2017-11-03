@@ -282,7 +282,7 @@
 		DEF348D51FA09719003AD5FA = {
 			isa = PBXGroup;
 			children = (
-				DEF348E01FA09719003AD5FA /* XZCustomView */,
+				DEF348E01FA09719003AD5FA /* Class */,
 				DEF348F91FA09719003AD5FA /* XZCustomViewTests */,
 				DEF349041FA09719003AD5FA /* XZCustomViewUITests */,
 				DEF348DF1FA09719003AD5FA /* Products */,
@@ -299,7 +299,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DEF348E01FA09719003AD5FA /* XZCustomView */ = {
+		DEF348E01FA09719003AD5FA /* Class */ = {
 			isa = PBXGroup;
 			children = (
 				DEF349131FA09790003AD5FA /* XZCustomeView */,
@@ -310,7 +310,7 @@
 				DEF348EF1FA09719003AD5FA /* Info.plist */,
 				DEF348F01FA09719003AD5FA /* main.m */,
 			);
-			path = XZCustomView;
+			path = Class;
 			sourceTree = "<group>";
 		};
 		DEF348F91FA09719003AD5FA /* XZCustomViewTests */ = {
