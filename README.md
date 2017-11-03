@@ -73,9 +73,7 @@
         DebugLog(@"提示框消失后，你要做些什么呢？？？");
     }];
 ```
-![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting04.gif)
-
-![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting05.gif)
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting04.gif) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting05.gif)
 
 
 
