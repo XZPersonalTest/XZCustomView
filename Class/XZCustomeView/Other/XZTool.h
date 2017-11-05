@@ -10,6 +10,8 @@
 
 #import "XZEnum.h"
 #import "XZConst.h"
+#import "Singleton.h"
+#import "XZMacro.h"
 
 #import "UIScreen+Extension.h"
 #import "UIImage+Extension.h"

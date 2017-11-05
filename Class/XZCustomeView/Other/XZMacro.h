@@ -67,6 +67,26 @@
 
 
 
+//***********************************Log日志********************************************
+
+#ifdef DEBUG
+#define DEBUG_ERROR_ALERT   // Debug模式下使用Debug错误弹出框
+
+#define DebugMode
+
+#define DebugLog(fmt, ...) NSLog((@"DEBUG: ---%s [Line %d]---" fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+
+#else
+#define DebugLog(fmt, ...)
+#define NSLog(...)
+#endif
+
+
+//==================================其他================================================
+// block弱引用
+#define getWeakSelf  __weak typeof (self) weakSelf = self;
+
+#define getStrongSelf  __weak typeof (weakSelf) strongSelf = weakSelf;
 
 
 #endif /* XZMacro_h */

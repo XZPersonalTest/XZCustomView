@@ -7,6 +7,7 @@
 //
 
 #import "XZBorderButton.h"
+#import "XZMacro.h"
 
 // 边框颜色定义
 #define COLOR_BORDER_NORMAL           [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0]

@@ -77,7 +77,6 @@
 		DE8AD68B1FA2C4E7006F2FEE /* UIScreen+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Extension.m"; sourceTree = "<group>"; };
 		DE8AD6901FA2D865006F2FEE /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		DE8AD6911FA2D865006F2FEE /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		DE8AD6941FA3127B006F2FEE /* XZCustomView-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XZCustomView-PrefixHeader.pch"; sourceTree = "<group>"; };
 		DEA90C231FA1D60C006B420D /* XZCustomViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCustomViewManager.h; sourceTree = "<group>"; };
 		DEA90C241FA1D60C006B420D /* XZCustomViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCustomViewManager.m; sourceTree = "<group>"; };
 		DEA90C251FA1D60C006B420D /* XZCustomWindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCustomWindowManager.m; sourceTree = "<group>"; };
@@ -212,21 +211,6 @@
 			path = XZCategory;
 			sourceTree = "<group>";
 		};
-		DE8AD6931FA3127B006F2FEE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DE8AD6941FA3127B006F2FEE /* XZCustomView-PrefixHeader.pch */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DE8AD6951FA3127B006F2FEE /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
 		DEA90C1F1FA1D5E9006B420D /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,8 +319,6 @@
 			isa = PBXGroup;
 			children = (
 				DE14D60F1FA815DF005DC03F /* XZHeader.h */,
-				DE8AD6951FA3127B006F2FEE /* Resource */,
-				DE8AD6931FA3127B006F2FEE /* Supporting Files */,
 				DEA90C211FA1D5E9006B420D /* Manager */,
 				DEA90C201FA1D5E9006B420D /* Model */,
 				DEA90C1F1FA1D5E9006B420D /* Other */,
@@ -583,7 +565,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "Class/XZCustomeView/Supporting Files/XZCustomView-PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -638,7 +619,6 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "Class/XZCustomeView/Supporting Files/XZCustomView-PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -658,7 +638,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T76SE52533;
-				GCC_PREFIX_HEADER = "Class/XZCustomeView/Supporting Files/XZCustomView-PrefixHeader.pch";
 				INFOPLIST_FILE = Class/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -674,7 +653,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T76SE52533;
-				GCC_PREFIX_HEADER = "Class/XZCustomeView/Supporting Files/XZCustomView-PrefixHeader.pch";
 				INFOPLIST_FILE = Class/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
