@@ -39,7 +39,7 @@
         // 隐藏等待窗
         [XZCustomWaitingView hideWaitingMaskView];
 ```
-![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting001.gif)
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting0001.gif)
 
 
         * 固定文字高度+菊花等待窗类型
