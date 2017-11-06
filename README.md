@@ -5,9 +5,45 @@
 **class文件夹下包括XZCustomeView文件夹及XZCustomeViewDemo文件夹，XZCustomeViewDemo文件夹为demo演示文件，XZCustomeView文件夹内为功能文件**
 
 ## 使用方法：
-    1.将XZCustomeView整个文件夹导入您的项目中
-    2.在AppDelegate文件中导入 #import "XZCustomWindowManager.h" 头文件
-    3.在程序启动方法里创建CustomView管理类：[XZCustomWindowManager shareManager].defuatSuperView = self.window;
+### 推荐：cocoapods安装使用
+```
+    $ pod search XZCustomeView
+```
+    常见安装错误解决方案：
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/error001.png)
+
+    出现上面这种问题，需要执行
+```
+    $ pod setup
+    $ rm ~/Library/Caches/CocoaPods/search_index.json
+    // 成功后再执行搜索命令
+    $ pod search XZCustomeView
+```
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/error002.png)
+
+    出现上面这种问题，需要执行
+```
+    $ pod repo update --verbose
+    // 成功后再执行搜索命令
+    $ pod search XZCustomeView
+```
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/error003.png)
+
+    出现上面这种问题，需要执行
+```
+    $ pod setup
+    $ rm ~/Library/Caches/CocoaPods/search_index.json
+    // 成功后再执行搜索命令
+    $ pod search XZCustomeView
+```
+
+
+### 直接下载导入
+    Dolwnload项目，然后将将class/XZCustomeView整个文件夹导入您的项目中
+    
+### 详细使用步骤
+    1.在AppDelegate文件中导入 #import "XZCustomWindowManager.h" 头文件
+    2.在程序启动方法里创建CustomView管理类：[XZCustomWindowManager shareManager].defuatSuperView = self.window;
 ```
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     {
@@ -29,8 +65,8 @@
 
     }
 ```
-    4.在需要使用弹窗的界面导入头文件：#import "XZHeader.h"
-    5.等待提示框的使用
+    3.在需要使用弹窗的界面导入头文件：#import "XZHeader.h"
+    4.等待提示框的使用
         * 自适应文字高度+菊花等待窗类型
 ```
         // 显示等待窗 此处的图标如果不传，则自动显示为菊花转
@@ -75,7 +111,7 @@
 ```
 ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting04.gif) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting05.gif)
 
-    6.警告视图提示框
+    5.警告视图提示框
         * 系统文字alertView样式提示窗一个按钮
 ```
     /**
@@ -326,7 +362,7 @@
     
 ```
 
-    7.SheetView弹窗
+    6.SheetView弹窗
 ```
     /**
     上滑提示框
