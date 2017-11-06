@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE14D60B1FA80EA7005DC03F /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14D60A1FA80EA7005DC03F /* UIDevice+Extension.m */; };
-		DE14D60E1FA80FE0005DC03F /* XZConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14D60C1FA80FE0005DC03F /* XZConst.m */; };
 		DE14D6161FA8180D005DC03F /* FHHFPSIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14D6131FA8180D005DC03F /* FHHFPSIndicator.m */; };
 		DE14D6171FA8180D005DC03F /* UIWindow+FHH.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14D6151FA8180D005DC03F /* UIWindow+FHH.m */; };
 		DE14D6261FA8372F005DC03F /* XZTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14D61B1FA8372F005DC03F /* XZTestManager.m */; };
@@ -17,17 +15,19 @@
 		DE14D6291FA8372F005DC03F /* XZTestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE14D6221FA8372F005DC03F /* XZTestCell.xib */; };
 		DE14D62A1FA8372F005DC03F /* XZTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14D6241FA8372F005DC03F /* XZTestVC.m */; };
 		DE14D62B1FA8372F005DC03F /* XZTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE14D6251FA8372F005DC03F /* XZTestVC.xib */; };
-		DE8AD68C1FA2C4E7006F2FEE /* UIScreen+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8AD68B1FA2C4E7006F2FEE /* UIScreen+Extension.m */; };
-		DE8AD6921FA2D865006F2FEE /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8AD6901FA2D865006F2FEE /* UIImage+Extension.m */; };
-		DEA90C271FA1D60C006B420D /* XZCustomViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA90C241FA1D60C006B420D /* XZCustomViewManager.m */; };
-		DEA90C281FA1D60C006B420D /* XZCustomWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA90C251FA1D60C006B420D /* XZCustomWindowManager.m */; };
-		DEA90C2B1FA1D6C2006B420D /* XZCusomViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA90C2A1FA1D6C2006B420D /* XZCusomViewModel.m */; };
-		DEA90C341FA1D6DD006B420D /* XZCustomActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA90C2F1FA1D6DC006B420D /* XZCustomActionSheetView.m */; };
-		DEA90C351FA1D6DD006B420D /* XZCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA90C311FA1D6DD006B420D /* XZCustomAlertView.m */; };
-		DEA90C391FA1D729006B420D /* XZTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA90C381FA1D729006B420D /* XZTool.m */; };
-		DEA90C3D1FA1E344006B420D /* XZBorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA90C3C1FA1E344006B420D /* XZBorderButton.m */; };
-		DEA90C411FA1E5AE006B420D /* XZPickerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA90C3F1FA1E5AE006B420D /* XZPickerViewModel.m */; };
-		DEC896AB1FA9971700C7AB6E /* XZCustomWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC896AA1FA9971700C7AB6E /* XZCustomWaitingView.m */; };
+		DE6D59B51FB00DC900B27731 /* XZCustomViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59B21FB00DC800B27731 /* XZCustomViewManager.m */; };
+		DE6D59B61FB00DC900B27731 /* XZCustomWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59B41FB00DC800B27731 /* XZCustomWindowManager.m */; };
+		DE6D59BD1FB00E1500B27731 /* XZCusomViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59BB1FB00E1500B27731 /* XZCusomViewModel.m */; };
+		DE6D59BE1FB00E1500B27731 /* XZPickerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59BC1FB00E1500B27731 /* XZPickerViewModel.m */; };
+		DE6D59D21FB00E9B00B27731 /* XZBorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59C41FB00E9A00B27731 /* XZBorderButton.m */; };
+		DE6D59D31FB00E9B00B27731 /* UIScreen+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59C51FB00E9A00B27731 /* UIScreen+Extension.m */; };
+		DE6D59D41FB00E9B00B27731 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59C81FB00E9A00B27731 /* UIDevice+Extension.m */; };
+		DE6D59D51FB00E9B00B27731 /* XZTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59CB1FB00E9A00B27731 /* XZTool.m */; };
+		DE6D59D61FB00E9B00B27731 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59CF1FB00E9A00B27731 /* UIImage+Extension.m */; };
+		DE6D59D71FB00E9B00B27731 /* XZConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59D11FB00E9A00B27731 /* XZConst.m */; };
+		DE6D59DF1FB00EF600B27731 /* XZCustomActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59D91FB00EF500B27731 /* XZCustomActionSheetView.m */; };
+		DE6D59E01FB00EF600B27731 /* XZCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59DA1FB00EF600B27731 /* XZCustomAlertView.m */; };
+		DE6D59E11FB00EF600B27731 /* XZCustomWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59DD1FB00EF600B27731 /* XZCustomWaitingView.m */; };
 		DEF348E31FA09719003AD5FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF348E21FA09719003AD5FA /* AppDelegate.m */; };
 		DEF348EB1FA09719003AD5FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF348EA1FA09719003AD5FA /* Assets.xcassets */; };
 		DEF348F11FA09719003AD5FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF348F01FA09719003AD5FA /* main.m */; };
@@ -53,10 +53,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE14D6091FA80EA7005DC03F /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
-		DE14D60A1FA80EA7005DC03F /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
-		DE14D60C1FA80FE0005DC03F /* XZConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZConst.m; sourceTree = "<group>"; };
-		DE14D60D1FA80FE0005DC03F /* XZConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZConst.h; sourceTree = "<group>"; };
 		DE14D60F1FA815DF005DC03F /* XZHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZHeader.h; sourceTree = "<group>"; };
 		DE14D6121FA8180D005DC03F /* FHHFPSIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHHFPSIndicator.h; sourceTree = "<group>"; };
 		DE14D6131FA8180D005DC03F /* FHHFPSIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHHFPSIndicator.m; sourceTree = "<group>"; };
@@ -73,31 +69,35 @@
 		DE14D6241FA8372F005DC03F /* XZTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZTestVC.m; sourceTree = "<group>"; };
 		DE14D6251FA8372F005DC03F /* XZTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZTestVC.xib; sourceTree = "<group>"; };
 		DE14D6301FA84C38005DC03F /* XZTestEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZTestEnum.h; sourceTree = "<group>"; };
-		DE8AD68A1FA2C4E7006F2FEE /* UIScreen+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Extension.h"; sourceTree = "<group>"; };
-		DE8AD68B1FA2C4E7006F2FEE /* UIScreen+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Extension.m"; sourceTree = "<group>"; };
-		DE8AD6901FA2D865006F2FEE /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
-		DE8AD6911FA2D865006F2FEE /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		DEA90C231FA1D60C006B420D /* XZCustomViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCustomViewManager.h; sourceTree = "<group>"; };
-		DEA90C241FA1D60C006B420D /* XZCustomViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCustomViewManager.m; sourceTree = "<group>"; };
-		DEA90C251FA1D60C006B420D /* XZCustomWindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCustomWindowManager.m; sourceTree = "<group>"; };
-		DEA90C261FA1D60C006B420D /* XZCustomWindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCustomWindowManager.h; sourceTree = "<group>"; };
-		DEA90C291FA1D6C2006B420D /* XZCusomViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCusomViewModel.h; sourceTree = "<group>"; };
-		DEA90C2A1FA1D6C2006B420D /* XZCusomViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCusomViewModel.m; sourceTree = "<group>"; };
-		DEA90C2E1FA1D6DC006B420D /* XZCustomActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCustomActionSheetView.h; sourceTree = "<group>"; };
-		DEA90C2F1FA1D6DC006B420D /* XZCustomActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCustomActionSheetView.m; sourceTree = "<group>"; };
-		DEA90C301FA1D6DD006B420D /* XZCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCustomAlertView.h; sourceTree = "<group>"; };
-		DEA90C311FA1D6DD006B420D /* XZCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCustomAlertView.m; sourceTree = "<group>"; };
-		DEA90C371FA1D729006B420D /* XZTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZTool.h; sourceTree = "<group>"; };
-		DEA90C381FA1D729006B420D /* XZTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZTool.m; sourceTree = "<group>"; };
-		DEA90C3A1FA1DC52006B420D /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
-		DEA90C3B1FA1E344006B420D /* XZBorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZBorderButton.h; sourceTree = "<group>"; };
-		DEA90C3C1FA1E344006B420D /* XZBorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZBorderButton.m; sourceTree = "<group>"; };
-		DEA90C3E1FA1E498006B420D /* XZMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZMacro.h; sourceTree = "<group>"; };
-		DEA90C3F1FA1E5AE006B420D /* XZPickerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZPickerViewModel.m; sourceTree = "<group>"; };
-		DEA90C401FA1E5AE006B420D /* XZPickerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZPickerViewModel.h; sourceTree = "<group>"; };
-		DEA90C421FA1E6F0006B420D /* XZEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZEnum.h; sourceTree = "<group>"; };
-		DEC896A91FA9971700C7AB6E /* XZCustomWaitingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZCustomWaitingView.h; sourceTree = "<group>"; };
-		DEC896AA1FA9971700C7AB6E /* XZCustomWaitingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZCustomWaitingView.m; sourceTree = "<group>"; };
+		DE6D59B11FB00DC800B27731 /* XZCustomViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCustomViewManager.h; sourceTree = "<group>"; };
+		DE6D59B21FB00DC800B27731 /* XZCustomViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCustomViewManager.m; sourceTree = "<group>"; };
+		DE6D59B31FB00DC800B27731 /* XZCustomWindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCustomWindowManager.h; sourceTree = "<group>"; };
+		DE6D59B41FB00DC800B27731 /* XZCustomWindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCustomWindowManager.m; sourceTree = "<group>"; };
+		DE6D59B91FB00E1500B27731 /* XZCusomViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCusomViewModel.h; sourceTree = "<group>"; };
+		DE6D59BA1FB00E1500B27731 /* XZPickerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZPickerViewModel.h; sourceTree = "<group>"; };
+		DE6D59BB1FB00E1500B27731 /* XZCusomViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCusomViewModel.m; sourceTree = "<group>"; };
+		DE6D59BC1FB00E1500B27731 /* XZPickerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZPickerViewModel.m; sourceTree = "<group>"; };
+		DE6D59C31FB00E9A00B27731 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		DE6D59C41FB00E9A00B27731 /* XZBorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZBorderButton.m; sourceTree = "<group>"; };
+		DE6D59C51FB00E9A00B27731 /* UIScreen+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Extension.m"; sourceTree = "<group>"; };
+		DE6D59C61FB00E9A00B27731 /* XZEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZEnum.h; sourceTree = "<group>"; };
+		DE6D59C71FB00E9A00B27731 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
+		DE6D59C81FB00E9A00B27731 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
+		DE6D59C91FB00E9A00B27731 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		DE6D59CA1FB00E9A00B27731 /* XZMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMacro.h; sourceTree = "<group>"; };
+		DE6D59CB1FB00E9A00B27731 /* XZTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZTool.m; sourceTree = "<group>"; };
+		DE6D59CC1FB00E9A00B27731 /* XZTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZTool.h; sourceTree = "<group>"; };
+		DE6D59CD1FB00E9A00B27731 /* XZBorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZBorderButton.h; sourceTree = "<group>"; };
+		DE6D59CE1FB00E9A00B27731 /* XZConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZConst.h; sourceTree = "<group>"; };
+		DE6D59CF1FB00E9A00B27731 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		DE6D59D01FB00E9A00B27731 /* UIScreen+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Extension.h"; sourceTree = "<group>"; };
+		DE6D59D11FB00E9A00B27731 /* XZConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZConst.m; sourceTree = "<group>"; };
+		DE6D59D91FB00EF500B27731 /* XZCustomActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCustomActionSheetView.m; sourceTree = "<group>"; };
+		DE6D59DA1FB00EF600B27731 /* XZCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCustomAlertView.m; sourceTree = "<group>"; };
+		DE6D59DB1FB00EF600B27731 /* XZCustomActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCustomActionSheetView.h; sourceTree = "<group>"; };
+		DE6D59DC1FB00EF600B27731 /* XZCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCustomAlertView.h; sourceTree = "<group>"; };
+		DE6D59DD1FB00EF600B27731 /* XZCustomWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCustomWaitingView.m; sourceTree = "<group>"; };
+		DE6D59DE1FB00EF600B27731 /* XZCustomWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCustomWaitingView.h; sourceTree = "<group>"; };
 		DEF348DE1FA09719003AD5FA /* XZCustomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZCustomView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF348E11FA09719003AD5FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEF348E21FA09719003AD5FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -198,69 +198,68 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		DE8AD6891FA2C4E7006F2FEE /* XZCategory */ = {
+		DE6D59B01FB00DB400B27731 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				DE8AD68A1FA2C4E7006F2FEE /* UIScreen+Extension.h */,
-				DE8AD68B1FA2C4E7006F2FEE /* UIScreen+Extension.m */,
-				DE8AD6911FA2D865006F2FEE /* UIImage+Extension.h */,
-				DE8AD6901FA2D865006F2FEE /* UIImage+Extension.m */,
-				DE14D6091FA80EA7005DC03F /* UIDevice+Extension.h */,
-				DE14D60A1FA80EA7005DC03F /* UIDevice+Extension.m */,
+				DE6D59B11FB00DC800B27731 /* XZCustomViewManager.h */,
+				DE6D59B21FB00DC800B27731 /* XZCustomViewManager.m */,
+				DE6D59B31FB00DC800B27731 /* XZCustomWindowManager.h */,
+				DE6D59B41FB00DC800B27731 /* XZCustomWindowManager.m */,
 			);
-			path = XZCategory;
+			name = Manager;
 			sourceTree = "<group>";
 		};
-		DEA90C1F1FA1D5E9006B420D /* Other */ = {
+		DE6D59B81FB00DFF00B27731 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DE8AD6891FA2C4E7006F2FEE /* XZCategory */,
-				DEA90C3A1FA1DC52006B420D /* Singleton.h */,
-				DEA90C421FA1E6F0006B420D /* XZEnum.h */,
-				DEA90C3E1FA1E498006B420D /* XZMacro.h */,
-				DE14D60D1FA80FE0005DC03F /* XZConst.h */,
-				DE14D60C1FA80FE0005DC03F /* XZConst.m */,
-				DEA90C371FA1D729006B420D /* XZTool.h */,
-				DEA90C381FA1D729006B420D /* XZTool.m */,
-				DEA90C3B1FA1E344006B420D /* XZBorderButton.h */,
-				DEA90C3C1FA1E344006B420D /* XZBorderButton.m */,
+				DE6D59B91FB00E1500B27731 /* XZCusomViewModel.h */,
+				DE6D59BB1FB00E1500B27731 /* XZCusomViewModel.m */,
+				DE6D59BA1FB00E1500B27731 /* XZPickerViewModel.h */,
+				DE6D59BC1FB00E1500B27731 /* XZPickerViewModel.m */,
 			);
-			path = Other;
+			name = Model;
 			sourceTree = "<group>";
 		};
-		DEA90C201FA1D5E9006B420D /* Model */ = {
+		DE6D59BF1FB00E2900B27731 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				DEA90C291FA1D6C2006B420D /* XZCusomViewModel.h */,
-				DEA90C2A1FA1D6C2006B420D /* XZCusomViewModel.m */,
-				DEA90C401FA1E5AE006B420D /* XZPickerViewModel.h */,
-				DEA90C3F1FA1E5AE006B420D /* XZPickerViewModel.m */,
 			);
-			path = Model;
+			name = Other;
 			sourceTree = "<group>";
 		};
-		DEA90C211FA1D5E9006B420D /* Manager */ = {
+		DE6D59C21FB00E6F00B27731 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				DEA90C231FA1D60C006B420D /* XZCustomViewManager.h */,
-				DEA90C241FA1D60C006B420D /* XZCustomViewManager.m */,
-				DEA90C261FA1D60C006B420D /* XZCustomWindowManager.h */,
-				DEA90C251FA1D60C006B420D /* XZCustomWindowManager.m */,
+				DE6D59C91FB00E9A00B27731 /* Singleton.h */,
+				DE6D59C71FB00E9A00B27731 /* UIDevice+Extension.h */,
+				DE6D59C81FB00E9A00B27731 /* UIDevice+Extension.m */,
+				DE6D59C31FB00E9A00B27731 /* UIImage+Extension.h */,
+				DE6D59CF1FB00E9A00B27731 /* UIImage+Extension.m */,
+				DE6D59D01FB00E9A00B27731 /* UIScreen+Extension.h */,
+				DE6D59C51FB00E9A00B27731 /* UIScreen+Extension.m */,
+				DE6D59CD1FB00E9A00B27731 /* XZBorderButton.h */,
+				DE6D59C41FB00E9A00B27731 /* XZBorderButton.m */,
+				DE6D59CE1FB00E9A00B27731 /* XZConst.h */,
+				DE6D59D11FB00E9A00B27731 /* XZConst.m */,
+				DE6D59C61FB00E9A00B27731 /* XZEnum.h */,
+				DE6D59CA1FB00E9A00B27731 /* XZMacro.h */,
+				DE6D59CC1FB00E9A00B27731 /* XZTool.h */,
+				DE6D59CB1FB00E9A00B27731 /* XZTool.m */,
 			);
-			path = Manager;
+			name = Tool;
 			sourceTree = "<group>";
 		};
-		DEA90C221FA1D5E9006B420D /* View */ = {
+		DE6D59D81FB00EC600B27731 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DEC896A91FA9971700C7AB6E /* XZCustomWaitingView.h */,
-				DEC896AA1FA9971700C7AB6E /* XZCustomWaitingView.m */,
-				DEA90C2E1FA1D6DC006B420D /* XZCustomActionSheetView.h */,
-				DEA90C2F1FA1D6DC006B420D /* XZCustomActionSheetView.m */,
-				DEA90C301FA1D6DD006B420D /* XZCustomAlertView.h */,
-				DEA90C311FA1D6DD006B420D /* XZCustomAlertView.m */,
+				DE6D59DB1FB00EF600B27731 /* XZCustomActionSheetView.h */,
+				DE6D59D91FB00EF500B27731 /* XZCustomActionSheetView.m */,
+				DE6D59DC1FB00EF600B27731 /* XZCustomAlertView.h */,
+				DE6D59DA1FB00EF600B27731 /* XZCustomAlertView.m */,
+				DE6D59DE1FB00EF600B27731 /* XZCustomWaitingView.h */,
+				DE6D59DD1FB00EF600B27731 /* XZCustomWaitingView.m */,
 			);
-			path = View;
+			name = View;
 			sourceTree = "<group>";
 		};
 		DEF348D51FA09719003AD5FA = {
@@ -319,10 +318,11 @@
 			isa = PBXGroup;
 			children = (
 				DE14D60F1FA815DF005DC03F /* XZHeader.h */,
-				DEA90C211FA1D5E9006B420D /* Manager */,
-				DEA90C201FA1D5E9006B420D /* Model */,
-				DEA90C1F1FA1D5E9006B420D /* Other */,
-				DEA90C221FA1D5E9006B420D /* View */,
+				DE6D59D81FB00EC600B27731 /* View */,
+				DE6D59C21FB00E6F00B27731 /* Tool */,
+				DE6D59BF1FB00E2900B27731 /* Other */,
+				DE6D59B81FB00DFF00B27731 /* Model */,
+				DE6D59B01FB00DB400B27731 /* Manager */,
 			);
 			path = XZCustomeView;
 			sourceTree = "<group>";
@@ -470,27 +470,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA90C351FA1D6DD006B420D /* XZCustomAlertView.m in Sources */,
-				DE14D60E1FA80FE0005DC03F /* XZConst.m in Sources */,
-				DEA90C271FA1D60C006B420D /* XZCustomViewManager.m in Sources */,
-				DE8AD6921FA2D865006F2FEE /* UIImage+Extension.m in Sources */,
+				DE6D59D71FB00E9B00B27731 /* XZConst.m in Sources */,
+				DE6D59B61FB00DC900B27731 /* XZCustomWindowManager.m in Sources */,
 				DEF348F11FA09719003AD5FA /* main.m in Sources */,
 				DE14D6281FA8372F005DC03F /* XZTestCell.m in Sources */,
 				DE14D6261FA8372F005DC03F /* XZTestManager.m in Sources */,
 				DE14D6161FA8180D005DC03F /* FHHFPSIndicator.m in Sources */,
-				DE8AD68C1FA2C4E7006F2FEE /* UIScreen+Extension.m in Sources */,
-				DE14D60B1FA80EA7005DC03F /* UIDevice+Extension.m in Sources */,
+				DE6D59BE1FB00E1500B27731 /* XZPickerViewModel.m in Sources */,
+				DE6D59DF1FB00EF600B27731 /* XZCustomActionSheetView.m in Sources */,
+				DE6D59D41FB00E9B00B27731 /* UIDevice+Extension.m in Sources */,
+				DE6D59D31FB00E9B00B27731 /* UIScreen+Extension.m in Sources */,
+				DE6D59D21FB00E9B00B27731 /* XZBorderButton.m in Sources */,
 				DE14D62A1FA8372F005DC03F /* XZTestVC.m in Sources */,
-				DEA90C341FA1D6DD006B420D /* XZCustomActionSheetView.m in Sources */,
-				DEA90C281FA1D60C006B420D /* XZCustomWindowManager.m in Sources */,
-				DEA90C2B1FA1D6C2006B420D /* XZCusomViewModel.m in Sources */,
+				DE6D59E11FB00EF600B27731 /* XZCustomWaitingView.m in Sources */,
+				DE6D59B51FB00DC900B27731 /* XZCustomViewManager.m in Sources */,
 				DEF348E31FA09719003AD5FA /* AppDelegate.m in Sources */,
-				DEA90C411FA1E5AE006B420D /* XZPickerViewModel.m in Sources */,
+				DE6D59BD1FB00E1500B27731 /* XZCusomViewModel.m in Sources */,
+				DE6D59D61FB00E9B00B27731 /* UIImage+Extension.m in Sources */,
 				DE14D6171FA8180D005DC03F /* UIWindow+FHH.m in Sources */,
+				DE6D59D51FB00E9B00B27731 /* XZTool.m in Sources */,
+				DE6D59E01FB00EF600B27731 /* XZCustomAlertView.m in Sources */,
 				DE14D6271FA8372F005DC03F /* XZTestModel.m in Sources */,
-				DEC896AB1FA9971700C7AB6E /* XZCustomWaitingView.m in Sources */,
-				DEA90C391FA1D729006B420D /* XZTool.m in Sources */,
-				DEA90C3D1FA1E344006B420D /* XZBorderButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
