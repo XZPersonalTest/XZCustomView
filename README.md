@@ -9,10 +9,11 @@
 ```
     $ pod search XZCustomeView
 ```
-    安装常见错误解决方案：
+
+#### 安装常见错误解决方案：
 ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/error001.png)
 
-    出现上面这种问题，需要执行
+    1.出现上面这种问题，需要执行
 ```
     $ pod setup
     $ rm ~/Library/Caches/CocoaPods/search_index.json
@@ -21,7 +22,7 @@
 ```
 ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/error002.png)
 
-    出现上面这种问题，需要执行
+    2.出现上面这种问题，需要执行
 ```
     $ pod repo update --verbose
     // 成功后再执行搜索命令
@@ -29,7 +30,7 @@
 ```
 ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/error003.png)
 
-    出现上面这种问题，需要执行
+    3.出现上面这种问题，需要执行
 ```
     $ pod setup
     $ rm ~/Library/Caches/CocoaPods/search_index.json
