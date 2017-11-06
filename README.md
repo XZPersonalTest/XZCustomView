@@ -9,7 +9,7 @@
 ```
     $ pod search XZCustomeView
 ```
-    常见安装错误解决方案：
+    安装常见错误解决方案：
 ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/error001.png)
 
     出现上面这种问题，需要执行
