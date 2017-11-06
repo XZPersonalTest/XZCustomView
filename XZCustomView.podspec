@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XZCustomView"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "A short description of XZCustomView."
 
   # This description is used to generate tags and improve search results.
@@ -51,10 +51,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "WenXiang.Li" => "953824991@qq.com" }
-  # Or just: s.author    = "WenXiang.Li"
-  # s.authors            = { "WenXiang.Li" => "953824991@qq.com" }
-  # s.social_media_url   = "http://twitter.com/WenXiang.Li"
+  s.author             = { "xiangzi" => "953824991@qq.com" }
+  # Or just: s.author    = "xiangzi"
+  # s.authors            = { "xiangzi" => "953824991@qq.com" }
+  # s.social_media_url   = "http://twitter.com/xiangzi"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/XZPersonalTest/XZCustomView.git", :tag => "0.0.5" }
+  s.source       = { :git => "https://github.com/XZPersonalTest/XZCustomView.git", :tag => "0.0.6" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
