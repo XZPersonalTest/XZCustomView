@@ -9,8 +9,6 @@
 #import "XZCustomAlertView.h"
 
 
-#import "AppDelegate.h"
-
 #import "XZCustomWindowManager.h"
 
 // AlertView 中控件之间的距离限制

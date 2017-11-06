@@ -8,7 +8,6 @@
 
 #import "XZCustomActionSheetView.h"
 
-#import "AppDelegate.h"
 #import "XZCustomWindowManager.h"
 
 #import "XZTool.h"
