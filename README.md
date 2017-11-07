@@ -79,6 +79,8 @@
 ```
     3.在需要使用弹窗的界面导入头文件：#import "XZHeader.h"
     4.等待提示框的使用
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting01.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting02.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting03.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting04.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting05.png)
+
         * 自适应文字高度+菊花等待窗类型
 ```
         // 显示等待窗 此处的图标如果不传，则自动显示为菊花转
@@ -87,9 +89,6 @@
         // 隐藏等待窗
         [XZCustomWaitingView hideWaitingMaskView];
 ```
-![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting01.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting02.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting03.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting04.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting05.png)
-
-
         * 固定文字高度+菊花等待窗类型
 ```
         // 显示等待窗 此处的图标如果不传，则自动显示为菊花转
@@ -118,8 +117,9 @@
     }];
 ```
     5.警告视图提示框
-        * 系统文字alertView样式提示窗一个按钮
 ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting06.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting07.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting08.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting09.png)
+
+        * 系统文字alertView样式提示窗一个按钮
 ```
     /**
     系统样式AlertView弹窗
