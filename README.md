@@ -124,6 +124,7 @@
 
     5.警告视图提示框
         * 系统文字alertView样式提示窗一个按钮
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting06.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting07.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting08.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting09.png)
 ```
     /**
     系统样式AlertView弹窗
@@ -163,19 +164,16 @@
         switch (buttonIndex) {
             case XZAlertViewBtnTagBgCancel:
             {
-
                 DebugLog(@"您好像点击了背景");
             }
                 break;
             case XZAlertViewBtnTagCancel:
             {
-
                 DebugLog(@"您好像点击了取消按钮");
             }
                 break;
             case XZAlertViewBtnTagSure:
             {
-
                 DebugLog(@"您好像点击了好吧按钮");
             }
                 break;
@@ -201,19 +199,16 @@
         switch (buttonIndex) {
             case XZAlertViewBtnTagBgCancel:
             {
-
                 DebugLog(@"您好像点击了背景");
             }
                 break;
             case XZAlertViewBtnTagCancel:
             {
-
                 DebugLog(@"您好像点击了坚决不输入按钮");
             }
                 break;
             case XZAlertViewBtnTagSure:
             {
-
                 DebugLog(@"您好像点击了好吧按钮");
             }
                 break;
@@ -225,13 +220,12 @@
         DebugLog(@"+++++++系统alertView样式提示窗输入框%@",self.systemTextFieldStr);
 
     }];
-
-    // textField输入完成回调方法
+    // textField输入完成回调方法 -- 往下看备注，有惊喜
     [alertView setTextFieldChangeHandler:^(UITextField *textField) {
         [weakSelf textFieldChange:textField];
     }];
 
-    // textField变化回调方法
+    // textField变化回调方法 -- 往下看备注，有惊喜
     [alertView setTextFieldShoudChangeHandler:^(UITextField *textField, NSRange range, NSString *string)
     {
         return [weakSelf textField:textField shouldChangeCharactersInRange:range replacementString:string];
@@ -252,25 +246,21 @@
         switch (buttonIndex) {
             case XZAlertViewBtnTagBgCancel:
             {
-
                 DebugLog(@"您好像点击了背景");
             }
                 break;
             case XZAlertViewBtnTagCancel:
             {
-
                 DebugLog(@"您好像点击了取消按钮");
             }
                 break;
             case XZAlertViewBtnTagSure:
             {
-
                 DebugLog(@"您好像点击了确定按钮");
             }
                 break;
             case XZAlertViewBtnTagVerificationCode:
             {
-
                 DebugLog(@"您好像点击了获取验证码按钮");
             }
                 break;
@@ -283,15 +273,13 @@
         DebugLog(@"+++++++您输入的验证码是%@",self.verificationCodeStr);
 
     }];
-
+    // textField输入完成回调方法 -- 往下看备注，有惊喜
     [alertView setTextFieldChangeHandler:^(UITextField *textField) {
-        // 判断字符长度
         [weakSelf textFieldChange:textField];
     }];
-
+    // textField变化回调方法 -- 往下看备注，有惊喜
     [alertView setTextFieldShoudChangeHandler:^(UITextField *textField, NSRange range, NSString *string)
     {
-        // 判断表情
         return [weakSelf textField:textField shouldChangeCharactersInRange:range replacementString:string];
     }];
 ```
@@ -323,28 +311,27 @@
         //    /** 验证码输入框tag值 */
         //    XZTextFieldTagVerificationCode                                = 2003,
         
-        // FIXME: 根据你的需要  通过textField的tag值，获取不同的输入框输入的内容
+        // FIXME: 根据你的需要  通过textField的tag值，获取不同的输入框输入的内容 textField.text
         switch (textField.tag) {
             case XZTextFieldTagSystemAlert:
             {
-                self.systemTextFieldStr = textField.text;
+                DebugLog(@"系统文字alertView样式弹窗输入框");
             }
                 break;
             case XZTextFieldTagPhoneNumber:
             {
-                self.phoneNumberStr = textField.text;
+                DebugLog(@"手机号输入框");
             }
                 break;
             case XZTextFieldTagVerificationCode:
             {
-                self.verificationCodeStr = textField.text;
+                DebugLog(@"验证码输入框");
             }
                 break;
             
             default:
                 break;
         }
-    
     }
     
     // textField变化变化时调用
@@ -360,7 +347,6 @@
                     [textField resignFirstResponder];
                 }
             }
-            
             [XZCustomWaitingView showAutoHidePromptView:@"禁止输入表情" background:nil showTime:XZWaitingViewAutoHideTime_1];
             return NO;
         }
@@ -372,7 +358,6 @@
     }
     
 ```
-
     6.SheetView弹窗
 ```
     /**
@@ -386,7 +371,7 @@
     */
     [XZCustomViewManager showCustomActionSheetWithTitle:@"哈喽你好"
                                       cancelButtonTitle:@"不好"
-                                      otherButtonTitles:@[@"你好", @"我好", @"大家好"]
+                                      otherButtonTitles:@[@"你好"]
                                                  handle:^(XZCustomActionSheetView *actionSheetView, NSInteger index) {
 
         switch (index) {
@@ -405,17 +390,6 @@
                 DebugLog(@"你点击了你好");
             }
                 break;
-            case 2:
-            {
-                DebugLog(@"你点击了我好");
-            }
-                break;
-            case 3:
-            {
-                DebugLog(@"你点击了大家好");
-            }
-                break;
-
             default:
                 break;
         }
