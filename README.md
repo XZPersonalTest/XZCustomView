@@ -7,10 +7,21 @@
 ## 使用方法：
 ### 推荐：cocoapods安装使用
 ```
+    // pod搜索
     $ pod search XZCustomeView
+    
+    // 导入
+    1.在Podfile文件中添加上名字
+    pod 'XZCustomView'
+    
+    end
+    
+    2.然后打开终端，cd到项目本地文件夹下，更新pod
+    $ pod update
+    
 ```
 
-#### 安装常见错误解决方案：
+#### pod搜索常见错误解决方案：
 ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/error001.png)
 
     1.出现上面这种问题，需要执行
