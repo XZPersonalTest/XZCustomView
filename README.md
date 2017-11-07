@@ -87,7 +87,7 @@
         // 隐藏等待窗
         [XZCustomWaitingView hideWaitingMaskView];
 ```
-![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting01.gif)
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting01.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting02.png)
 
 
         * 固定文字高度+菊花等待窗类型
@@ -98,7 +98,6 @@
         // 隐藏等待窗
         [XZCustomWaitingView hideWaitingMaskView];
 ```
-![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting02.gif)
 
         * 循环Icon图标形成的等待界面
 ```
