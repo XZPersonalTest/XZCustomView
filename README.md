@@ -87,7 +87,7 @@
         // 隐藏等待窗
         [XZCustomWaitingView hideWaitingMaskView];
 ```
-![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting01.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting02.png)
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting01.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting02.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting03.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting04.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting05.png)
 
 
         * 固定文字高度+菊花等待窗类型
@@ -98,7 +98,6 @@
         // 隐藏等待窗
         [XZCustomWaitingView hideWaitingMaskView];
 ```
-
         * 循环Icon图标形成的等待界面
 ```
     // 显示等待窗 此处的图标名字必传
@@ -107,8 +106,6 @@
     // 隐藏等待窗 后边传入的BOOL值，YES代表延迟0.5秒后移除等待界面，NO：为立即移除等待界面
     [XZCustomWaitingView hideIconWaitingMaskView:YES];
 ```
-![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting03.gif)
-
         * 自动隐藏提示框
 ```
     // 没有block回调 此处的图片如果不传，则显示为纯文字， showTime：弹窗显示时间
@@ -120,8 +117,6 @@
         DebugLog(@"提示框消失后，你要做些什么呢？？？");
     }];
 ```
-![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting04.gif) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting05.gif)
-
     5.警告视图提示框
         * 系统文字alertView样式提示窗一个按钮
 ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting06.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting07.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting08.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting09.png)
