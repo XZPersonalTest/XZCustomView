@@ -117,7 +117,7 @@
     }];
 ```
     5.警告视图提示框
-![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting06.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting07.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting08.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting09.png)
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting06.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting07.png) ![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting08.png)
 
         * 系统文字alertView样式提示窗一个按钮
 ```
@@ -354,6 +354,7 @@
     
 ```
     6.SheetView弹窗
+![image](https://github.com/XZPersonalTest/Resources/blob/master/XZCustomView/waiting09.png)
 ```
     /**
     上滑提示框
