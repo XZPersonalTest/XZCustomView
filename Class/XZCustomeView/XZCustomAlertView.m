@@ -509,7 +509,10 @@ static const int contentLabelMaxHeight = 100; // 最大
     if (self.clickBlock) {
         self.clickBlock (self , buttonSelect.tag , self.alertViewType);
     }
-    [self cancelAction];
+    
+    if (!self.isCustomCancel) {
+        [self cancelAction];
+    }
 }
 
 /**

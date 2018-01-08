@@ -73,7 +73,8 @@ typedef NS_ENUM(NSUInteger, XZTextFieldTag)
 @property (nonatomic, strong) UITextField *inputPincodeTextField;
 /** 获取pincode按钮 */
 @property (nonatomic, strong) XZBorderButton *getPincodeButton;
-
+/// 是否自定义Cancel弹窗
+@property (assign , nonatomic) BOOL isCustomCancel;
 
 //
 typedef void (^textFieldChange)(UITextField *textField);
