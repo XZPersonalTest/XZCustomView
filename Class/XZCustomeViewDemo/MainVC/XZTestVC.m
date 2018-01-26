@@ -178,7 +178,7 @@
                 case XZCustomViewAlertViewTypeSystemAlertOneBtn:
                 {
                     [XZCustomViewManager showSystemAlertViewWithTitle:nil
-                                                              message:@"我就是闲来没事，提示一下子"
+                                                              message:@"我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子我就是闲来没事，提示一下子"
                                                     cancelButtonTitle:@"提示个毛啊"
                                                      otherButtonTitle:nil
                                                     isTouchbackground:YES
@@ -219,7 +219,7 @@
                 case XZCustomViewAlertViewTypeSystemAlertTwoBtn:
                 {
                     [XZCustomViewManager showSystemAlertViewWithTitle:@"提示"
-                                                              message:@"好吧，提示吧"
+                                                              message:@"我就是闲来没事下子我一下子我"
                                                     cancelButtonTitle:@"提示个毛啊"
                                                      otherButtonTitle:@"好吧"
                                                     isTouchbackground:YES

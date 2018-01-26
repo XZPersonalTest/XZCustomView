@@ -43,7 +43,7 @@ static const int contentLabelMaxHeight = 100; // 最大
 
 // AlertView 中控件字体大小
 
-#define FONT_TEXT_18    [UIFont boldSystemFontOfSize:16]
+#define FONT_TEXT_16    [UIFont boldSystemFontOfSize:16]
 
 @interface XZCustomAlertView ()<UIGestureRecognizerDelegate,UITextFieldDelegate>
 
@@ -204,9 +204,9 @@ static const int contentLabelMaxHeight = 100; // 最大
     switch (alertViewType) {
         case XZAlertViewTypeSystemAlert:
         {
-            CGFloat messageHeight = [XZTool getSizeFromString:self.promptLabelText withFont:FONT_TEXT_18 constrainedToSize:CGSizeMake(([UIScreen screenWidth] - LeftRightMargin*2 - 20), 1000)].height;
+            CGFloat messageHeight = [XZTool getSizeFromString:self.promptLabelText withFont:XZFont(19) constrainedToSize:CGSizeMake(([UIScreen screenWidth] - LeftRightMargin*2 - 20), 1000)].height + 40;
             
-            messageHeight = messageHeight <= 30 ? textFieldHeight : contentLabelMaxHeight;
+//            messageHeight = messageHeight <= 30 ? textFieldHeight : contentLabelMaxHeight;
             
             if (self.title.length == 0)
             {
@@ -217,7 +217,7 @@ static const int contentLabelMaxHeight = 100; // 最大
             }
             
             // 创建选择视图的窗口
-            self.selectorView = [[UIView alloc] initWithFrame:CGRectMake(LeftRightMargin, 0.0, [UIScreen mainScreen].bounds.size.width - LeftRightMargin*2, heightView)];
+            self.selectorView = [[UIView alloc] initWithFrame:CGRectMake(LeftRightMargin, 0.0, [UIScreen screenWidth] - LeftRightMargin*2, heightView)];
             
             self.selectorView.center = self.center;
             
@@ -283,7 +283,7 @@ static const int contentLabelMaxHeight = 100; // 最大
     self.inputMobileNumTextField = [[UITextField alloc] initWithFrame:CGRectMake(DistanceBetweenUIControl/2, TopMargin, CGRectGetWidth(self.selectorView.frame) - DistanceBetweenUIControl, ButtonOrTextFieldHeight)];
     self.inputMobileNumTextField.placeholder = @"输入手机号";
     [self.inputMobileNumTextField setClearButtonMode:UITextFieldViewModeWhileEditing];
-    self.inputMobileNumTextField.font = FONT_TEXT_18;
+    self.inputMobileNumTextField.font = FONT_TEXT_16;
     self.inputMobileNumTextField.backgroundColor = COLOR_ALERTVIEW_TEXTFIELD_BACKGROUND;
     self.inputMobileNumTextField.borderStyle = UITextBorderStyleRoundedRect;
     [self.inputMobileNumTextField setKeyboardType:UIKeyboardTypeNumberPad];
@@ -293,7 +293,7 @@ static const int contentLabelMaxHeight = 100; // 最大
     
     self.inputPincodeTextField = [[UITextField alloc] initWithFrame:CGRectMake(DistanceBetweenUIControl/2, CGRectGetMaxY(self.inputMobileNumTextField.frame) + DistanceBetweenUIControl, CGRectGetWidth(self.selectorView.frame)/2 - DistanceBetweenUIControl, ButtonOrTextFieldHeight)];
     self.inputPincodeTextField.placeholder = @"输入验证码";
-    self.inputPincodeTextField.font = FONT_TEXT_18;
+    self.inputPincodeTextField.font = FONT_TEXT_16;
     self.inputPincodeTextField.backgroundColor = COLOR_ALERTVIEW_TEXTFIELD_BACKGROUND;
     self.inputPincodeTextField.borderStyle = UITextBorderStyleRoundedRect;
     [self.inputPincodeTextField setClearButtonMode:UITextFieldViewModeWhileEditing];
@@ -310,7 +310,7 @@ static const int contentLabelMaxHeight = 100; // 最大
     //  设置
     [XZTool setBorderColorAndBlueBackGroundColorFor:self.getPincodeButton];
     //self.getPincodeButton.backgroundColor = COLOR_ALERTVIEW_GETPINCODE_BUTTON_BACKGROUND;
-    self.getPincodeButton.titleLabel.font = FONT_TEXT_18;
+    self.getPincodeButton.titleLabel.font = FONT_TEXT_16;
     self.getPincodeButton.tag = XZAlertViewBtnTagVerificationCode;
     self.getPincodeButton.layer.cornerRadius = ViewRadius;
     self.getPincodeButton.layer.masksToBounds = YES;
@@ -322,7 +322,7 @@ static const int contentLabelMaxHeight = 100; // 最大
     [buttonCancel setTitle:@"取消" forState:UIControlStateNormal];
     [buttonCancel setTitleColor:COLOR_ALERTVIEW_BUTTON_TITLE_CONFIRM forState:UIControlStateNormal];
 //    buttonCancel.backgroundColor = COLOR_ALERTVIEW_BUTTON_BACKGROUND;
-    buttonCancel.titleLabel.font = FONT_TEXT_18;
+    buttonCancel.titleLabel.font = FONT_TEXT_16;
     buttonCancel.tag = XZAlertViewBtnTagCancel;
 //    buttonCancel.layer.cornerRadius = ViewRadius;
 //    buttonCancel.layer.masksToBounds = YES;
@@ -334,7 +334,7 @@ static const int contentLabelMaxHeight = 100; // 最大
     [buttonSure setTitle:@"确定" forState:UIControlStateNormal];
     [buttonSure setTitleColor:COLOR_ALERTVIEW_BUTTON_TITLE_CONFIRM forState:UIControlStateNormal];
 //    buttonSure.backgroundColor = COLOR_ALERTVIEW_BUTTON_BACKGROUND;
-    buttonSure.titleLabel.font = FONT_TEXT_18;
+    buttonSure.titleLabel.font = FONT_TEXT_16;
     buttonSure.tag = XZAlertViewBtnTagSure;
 //    buttonSure.layer.cornerRadius = ViewRadius;
 //    buttonSure.layer.masksToBounds = YES;
@@ -403,9 +403,10 @@ static const int contentLabelMaxHeight = 100; // 最大
     else
     {
        //内容
-        UILabel *messageLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, height, CGRectGetWidth(self.selectorView.frame) - 20, CGRectGetHeight(self.selectorView.frame) - height - ButtonOrTextFieldHeight )];
+        UILabel *messageLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, height, CGRectGetWidth(self.selectorView.frame) - 20, CGRectGetHeight(self.selectorView.frame) - height - ButtonOrTextFieldHeight)];
         
         messageLabel.numberOfLines = 0;
+        messageLabel.font = XZFont(18);
         
         NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self.promptLabelText];
         NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
@@ -447,7 +448,7 @@ static const int contentLabelMaxHeight = 100; // 最大
         
         [button setTitleColor:COLOR_ALERTVIEW_BUTTON_TITLE_CONFIRM forState:UIControlStateNormal];
         button.backgroundColor = COLOR_ALERTVIEW_BUTTON_BACKGROUND;
-        button.titleLabel.font = FONT_TEXT_18;
+        button.titleLabel.font = FONT_TEXT_16;
         button.tag = XZAlertViewBtnTagCancel;
         [button addTarget:self action:@selector(touchRemoveAlertViewButtonAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.selectorView addSubview:button];
@@ -460,7 +461,7 @@ static const int contentLabelMaxHeight = 100; // 最大
         [buttonCancel setTitle:self.cancelTitle forState:UIControlStateNormal];
         [buttonCancel setTitleColor:COLOR_ALERTVIEW_BUTTON_TITLE_CONFIRM forState:UIControlStateNormal];
         //    buttonCancel.backgroundColor =  COLOR_ALERTVIEW_BUTTON_BACKGROUND;
-        buttonCancel.titleLabel.font = FONT_TEXT_18;
+        buttonCancel.titleLabel.font = FONT_TEXT_16;
         buttonCancel.tag = XZAlertViewBtnTagCancel;
         
         [buttonCancel addTarget:self action:@selector(touchRemoveAlertViewButtonAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -473,7 +474,7 @@ static const int contentLabelMaxHeight = 100; // 最大
         [buttonSure setTitle:self.otherTitle forState:UIControlStateNormal];
         
         [buttonSure setTitleColor:COLOR_ALERTVIEW_BUTTON_TITLE_CONFIRM forState:UIControlStateNormal];
-        buttonSure.titleLabel.font = FONT_TEXT_18;
+        buttonSure.titleLabel.font = FONT_TEXT_16;
         buttonSure.tag = XZAlertViewBtnTagSure;
         
         [buttonSure addTarget:self action:@selector(touchRemoveAlertViewButtonAction:) forControlEvents:UIControlEventTouchUpInside];
